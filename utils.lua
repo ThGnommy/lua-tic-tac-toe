@@ -12,18 +12,7 @@ function utils.print_board(board)
   ]], board[1], board[2], board[3], board[4], board[5], board[6], board[7], board[8], board[9])
 end
 
-function utils.preview_board() 
-  return string.format([[
-   1 | 2 | 3
-  -----------
-   4 | 5 | 6
-  -----------
-   7 | 8 | 9
-]])
-end
-
 function utils.error_message(phrase, board)
-
   local error = string.format("\n------------------------------------------\n" .. 
   "%s" .. 
   "\n------------------------------------------\n" .. 
